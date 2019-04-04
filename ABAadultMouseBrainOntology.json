@@ -168,32 +168,26 @@
                                       "text": "Primary somatosensory area nose",
                                       "children": [
                                         {
-                                          "acronym": "SSp-n1",
                                           "text": "Primary somatosensory area nose layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-n2/3",
                                           "text": "Primary somatosensory area nose layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-n4",
                                           "text": "Primary somatosensory area nose layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-n5",
                                           "text": "Primary somatosensory area nose layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-n6a",
                                           "text": "Primary somatosensory area nose layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-n6b",
                                           "text": "Primary somatosensory area nose layer 6b",
                                           "children": []
                                         }
@@ -203,32 +197,26 @@
                                       "text": "Primary somatosensory area barrel field",
                                       "children": [
                                         {
-                                          "acronym": "SSp-bfd1",
                                           "text": "Primary somatosensory area barrel field layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-bfd2/3",
                                           "text": "Primary somatosensory area barrel field layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-bfd4",
                                           "text": "Primary somatosensory area barrel field layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-bfd5",
                                           "text": "Primary somatosensory area barrel field layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-bfd6a",
                                           "text": "Primary somatosensory area barrel field layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-bfd6b",
                                           "text": "Primary somatosensory area barrel field layer 6b",
                                           "children": []
                                         },
@@ -267,32 +255,26 @@
                                       "text": "Primary somatosensory area lower limb",
                                       "children": [
                                         {
-                                          "acronym": "SSp-ll1",
                                           "text": "Primary somatosensory area lower limb layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ll2/3",
                                           "text": "Primary somatosensory area lower limb layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ll4",
                                           "text": "Primary somatosensory area lower limb layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ll5",
                                           "text": "Primary somatosensory area lower limb layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ll6a",
                                           "text": "Primary somatosensory area lower limb layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ll6b",
                                           "text": "Primary somatosensory area lower limb layer 6b",
                                           "children": []
                                         }
@@ -302,32 +284,26 @@
                                       "text": "Primary somatosensory area mouth",
                                       "children": [
                                         {
-                                          "acronym": "SSp-m1",
                                           "text": "Primary somatosensory area mouth layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-m2/3",
                                           "text": "Primary somatosensory area mouth layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-m4",
                                           "text": "Primary somatosensory area mouth layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-m5",
                                           "text": "Primary somatosensory area mouth layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-m6a",
                                           "text": "Primary somatosensory area mouth layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-m6b",
                                           "text": "Primary somatosensory area mouth layer 6b",
                                           "children": []
                                         }
@@ -337,32 +313,26 @@
                                       "text": "Primary somatosensory area upper limb",
                                       "children": [
                                         {
-                                          "acronym": "SSp-ul1",
                                           "text": "Primary somatosensory area upper limb layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ul2/3",
                                           "text": "Primary somatosensory area upper limb layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ul4",
                                           "text": "Primary somatosensory area upper limb layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ul5",
                                           "text": "Primary somatosensory area upper limb layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ul6a",
                                           "text": "Primary somatosensory area upper limb layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-ul6b",
                                           "text": "Primary somatosensory area upper limb layer 6b",
                                           "children": []
                                         }
@@ -372,32 +342,26 @@
                                       "text": "Primary somatosensory area trunk",
                                       "children": [
                                         {
-                                          "acronym": "SSp-tr1",
                                           "text": "Primary somatosensory area trunk layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-tr2/3",
                                           "text": "Primary somatosensory area trunk layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-tr4",
                                           "text": "Primary somatosensory area trunk layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-tr5",
                                           "text": "Primary somatosensory area trunk layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-tr6a",
                                           "text": "Primary somatosensory area trunk layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-tr6b",
                                           "text": "Primary somatosensory area trunk layer 6b",
                                           "children": []
                                         }
@@ -407,32 +371,26 @@
                                       "text": "Primary somatosensory area unassigned",
                                       "children": [
                                         {
-                                          "acronym": "SSp-un1",
                                           "text": "Primary somatosensory area unassigned layer 1",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-un2/3",
                                           "text": "Primary somatosensory area unassigned layer 2/3",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-un4",
                                           "text": "Primary somatosensory area unassigned layer 4",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-un5",
                                           "text": "Primary somatosensory area unassigned layer 5",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-un6a",
                                           "text": "Primary somatosensory area unassigned layer 6a",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "SSp-un6b",
                                           "text": "Primary somatosensory area unassigned layer 6b",
                                           "children": []
                                         }
@@ -1685,7 +1643,6 @@
                                   "text": "Taenia tecta dorsal part",
                                   "children": [
                                     {
-                                      "acronym": "TTd1-4",
                                       "text": "Taenia tecta dorsal part layers 1-4",
                                       "children": []
                                     },
@@ -1711,7 +1668,6 @@
                                   "text": "Taenia tecta ventral part",
                                   "children": [
                                     {
-                                      "acronym": "TTv1-3",
                                       "text": "Taenia tecta ventral part layers 1-3",
                                       "children": []
                                     },
@@ -1760,7 +1716,6 @@
                               "text": "Piriform area",
                               "children": [
                                 {
-                                  "acronym": "PIR1-3",
                                   "text": "Piriform area layers 1-3",
                                   "children": []
                                 },
@@ -1782,7 +1737,6 @@
                               "text": "Nucleus of the lateral olfactory tract",
                               "children": [
                                 {
-                                  "acronym": "NLOT1-3",
                                   "text": "Nucleus of the lateral olfactory tract layers 1-3",
                                   "children": []
                                 },
@@ -1827,12 +1781,10 @@
                                       "text": "Cortical amygdalar area posterior part lateral zone",
                                       "children": [
                                         {
-                                          "acronym": "COApl1-2",
                                           "text": "Cortical amygdalar area posterior part lateral zone layers 1-2",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "COApl1-3",
                                           "text": "Cortical amygdalar area posterior part lateral zone layers 1-3",
                                           "children": []
                                         },
@@ -1854,12 +1806,10 @@
                                       "text": "Cortical amygdalar area posterior part medial zone",
                                       "children": [
                                         {
-                                          "acronym": "COApm1-2",
                                           "text": "Cortical amygdalar area posterior part medial zone layers 1-2",
                                           "children": []
                                         },
                                         {
-                                          "acronym": "COApm1-3",
                                           "text": "Cortical amygdalar area posterior part medial zone layers 1-3",
                                           "children": []
                                         },
@@ -1885,7 +1835,6 @@
                               "text": "Piriform-amygdalar area",
                               "children": [
                                 {
-                                  "acronym": "PAA1-3",
                                   "text": "Piriform-amygdalar area layers 1-3",
                                   "children": []
                                 },
@@ -1907,7 +1856,6 @@
                               "text": "Postpiriform transition area",
                               "children": [
                                 {
-                                  "acronym": "TR1-3",
                                   "text": "Postpiriform transition area layers 1-3",
                                   "children": []
                                 },
@@ -2457,7 +2405,6 @@
                                   "children": []
                                 },
                                 {
-                                  "acronym": "OT1-3",
                                   "text": "Olfactory tubercle layers 1-3",
                                   "children": []
                                 },
@@ -4264,21 +4211,17 @@
                               ]
                             },
                             {
-                              "acronym": "CUL4 5",
                               "text": "Lobules IV-V",
                               "children": [
                                 {
-                                  "acronym": "CUL4 5mo",
                                   "text": "Lobules IV-V molecular layer",
                                   "children": []
                                 },
                                 {
-                                  "acronym": "CUL4 5pu",
                                   "text": "Lobules IV-V Purkinje layer",
                                   "children": []
                                 },
                                 {
-                                  "acronym": "CUL4 5gr",
                                   "text": "Lobules IV-V granular layer",
                                   "children": []
                                 }
@@ -4538,7 +4481,6 @@
           ]
         },
         {
-          "acronym": "fiber tracts",
           "text": "fiber tracts",
           "children": [
             {
@@ -5405,7 +5347,6 @@
           "text": "grooves",
           "children": [
             {
-              "acronym": "grv of CTX",
               "text": "grooves of the cerebral cortex",
               "children": [
                 {
@@ -5427,7 +5368,6 @@
               ]
             },
             {
-              "acronym": "grv of CBX",
               "text": "grooves of the cerebellar cortex",
               "children": [
                 {
