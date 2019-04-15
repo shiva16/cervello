@@ -6,11 +6,15 @@ from xml.etree import ElementTree
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import nltk 
-# nltk.download('stopwords')
+# nltk.download('wordnet')
 import json
 import string
 import sys
 import pickle
+from nltk.stem.snowball import SnowballStemmer
+from nltk.corpus import wordnet
+
+stemmer = SnowballStemmer("english", ignore_stopwords=True)
 
 # with open("data_",'r') as f:
 #     data = f.read()
@@ -48,16 +52,18 @@ with open("ABAadultMouseBrainOntology.json") as f:
         data = f.read()
         read_json = json.loads(data)
         med_terms = extract_values(read_json, "text")
-        acronyms = extract_values(read_json, "acronym")
+        # acronyms = extract_values(read_json, "acronym")
 
-print(len(med_terms))
-
+print('Total brain regions considered:',len(med_terms))
+print('Processing...')
 stop_words = set(stopwords.words('english'))
 
 root = ElementTree.parse("corpus2.xml").getroot()
 D = {}
 
-# step = 50
+if len(sys.argv) > 1:
+    step = int(sys.argv[1])
+    print(step)
 for item in root.findall("entry"):
     doc_id = item.find("id")
     doc_id = ElementTree.tostring(doc_id,encoding="unicode")
@@ -70,15 +76,41 @@ for item in root.findall("entry"):
     summary = summary.replace('<summary>','')
     summary = summary.replace('</summary>','')
     summary = summary.lower()
-    summary = nltk.word_tokenize(summary)
+    # summary = nltk.word_tokenize(summary)
     # print(summary)
 
-    # for i in range(len)
+    # for i in range(len(summary)):
+    #     term = summary[i]
+    #     term = term.lower()        
+    #     acr = ""
+    #     pos = i
+    #     copy = term
+    #     # term = stemmer.stem(term)
+    #     if term in med_terms:
+    #         # print(term,copy)
+
+    #         if term in D.keys():
+    #             D[term].append([doc_id,pos])
+    #         else:
+    #             D[term] = [[doc_id,pos]]
+
+    # #     # if  term in acronyms and not wordnet.synsets(term):
+    # #     if  term in acronyms:
+    # #         # print(term, copy)
+
+    # #         term = med_terms[acronyms.index(term)]
+
+    # #         # pos = summary.index(acr)
+    # #         if term in D.keys():
+    # #             D[term].append([doc_id,pos])
+    # #         else:
+    # #             D[term] = [[doc_id,pos]]
     
     for i in range(len(med_terms)):
         term = med_terms[i]
         term = term.lower()
-        acr = acronyms[i]
+        # acr = acronyms[i]
+        # if term == 'frontal pole, layer 2/3': print('-------', summary)
         
         if term in summary:     
             pos = summary.index(term)       
@@ -87,12 +119,11 @@ for item in root.findall("entry"):
             else:
                 D[term] = [[doc_id,pos]]
 
-        if  acr in summary:
-            pos = summary.index(acr)
-            if term in D.keys():
-                D[term].append([doc_id,pos])
-            else:
-                D[term] = [[doc_id,pos]]
+    if len(sys.argv) > 1:
+        step -= 1
+        if step == 0:
+            print(D)
+            break       
     
 
     ##SAVE DICTIONARY TO FILE
@@ -100,7 +131,4 @@ for item in root.findall("entry"):
     pickle.dump(D,f)
     f.close()
 
-    # step -= 1
-    # if step == 0:
-    #     print(D)
-    #     break
+    
