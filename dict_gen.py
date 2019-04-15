@@ -54,9 +54,10 @@ print(len(med_terms))
 
 stop_words = set(stopwords.words('english'))
 
-# i=100
 root = ElementTree.parse("corpus2.xml").getroot()
 D = {}
+
+# step = 50
 for item in root.findall("entry"):
     doc_id = item.find("id")
     doc_id = ElementTree.tostring(doc_id,encoding="unicode")
@@ -72,41 +73,34 @@ for item in root.findall("entry"):
     summary = nltk.word_tokenize(summary)
     # print(summary)
 
+    # for i in range(len)
     
     for i in range(len(med_terms)):
         term = med_terms[i]
         term = term.lower()
-        # if term == 'pons':
-        #         print('---------------------')
-        #         print(doc_id)
-        #         print(med_terms)
-        #         print(i)                
-        #         sys.exit(1)
-        # print(term, i/len(med_terms)*100, flush=True)
-
         acr = acronyms[i]
         
-        if term in summary or acr in summary:            
-            # print(term, i/len(med_terms)*100, flush=True)
+        if term in summary:     
+            pos = summary.index(term)       
             if term in D.keys():
-                    D[term].append(doc_id)
+                D[term].append([doc_id,pos])
             else:
-                    D[term] = [doc_id]
-        
-        # if acr in summary:            
-        #     # print(term, i/len(med_terms)*100, flush=True)
-        #     if acr in D.keys():
-        #             D[term].append(doc_id)
-        #     else:
-        #             D[term] = [doc_id]
+                D[term] = [[doc_id,pos]]
 
+        if  acr in summary:
+            pos = summary.index(acr)
+            if term in D.keys():
+                D[term].append([doc_id,pos])
+            else:
+                D[term] = [[doc_id,pos]]
+    
 
     ##SAVE DICTIONARY TO FILE
     f = open("file.pkl","wb")
     pickle.dump(D,f)
     f.close()
-#     i -= 1
-#     if not i: break
-print(D)
-print(med_terms[:5])
-print(acronyms[:5])
+
+    # step -= 1
+    # if step == 0:
+    #     print(D)
+    #     break
